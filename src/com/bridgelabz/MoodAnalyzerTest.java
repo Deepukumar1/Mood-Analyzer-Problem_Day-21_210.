@@ -28,7 +28,7 @@ class MoodAnalyzerTest {
 	        object = new MoodAnalyser();
 	    }
 	    @Test
-	    public void moodAnalyser(){
+	    public void moodAnalyser()throws MoodAnalyserException{
 	        String ans = object.moodAnalyser();
 	        Assertions.assertEquals("HAPPY",ans);;
 	        System.out.println(ans);
